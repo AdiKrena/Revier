@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uphero.reviewyuk.revier.Profile.ProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Top Toolbar -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relLayout1">
+
+            <include layout="@layout/layout_top_profile"/>
+
+        </RelativeLayout>
+
+        <!-- Middle Section (body> -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:id="@+id/relLayout2"
+            android:layout_below="@+id/relLayout1"
+            android:layout_marginBottom="50dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/ic_android"
+                app:civ_circle_background_color="@color/black"/>
+
+            <TextView
+                android:id="@+id/profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/profile_image"
+                android:text="Your Username"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="16dp"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_below="@+id/profile_name"
+                android:layout_toEndOf="@+id/profile_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:text="Reviews : "
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_totrev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/textView3"
+                android:layout_below="@+id/profile_name"
+                android:layout_marginTop="10dp"
+                android:text="0"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/profile_change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView3"
+                android:layout_toEndOf="@id/profile_image"
+                android:layout_marginStart="16dp"
+                android:text="Setting account"
+                android:textColor="@color/linkBlue"
+                android:textAllCaps="false"
+                android:background="#00ffffff"/>
+
+        </RelativeLayout>
+
+        <!-- Bottom Navigation -->
+        <include layout="@layout/layout_bottom_navigation_view"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

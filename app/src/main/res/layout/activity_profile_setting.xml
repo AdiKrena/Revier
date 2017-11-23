@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uphero.reviewyuk.revier.Profile.ProfileSettingActivity">
+
+    <RelativeLayout
+        android:id="@+id/relLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/layout_top_profilesetting"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relLayout1"
+        android:background="@color/white">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profilesetting_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_android"
+            app:civ_circle_background_color="@color/black"/>
+
+        <Button
+            android:id="@+id/profilesetting_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ganti Foto"
+            android:textAllCaps="false"
+            android:layout_below="@id/profilesetting_image"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/linkBlue"
+            android:background="@null"/>
+
+        <android.support.v7.view.menu.ListMenuItemView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/profilesetting_setting"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/profilesetting_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama"/>
+
+        </android.support.v7.view.menu.ListMenuItemView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

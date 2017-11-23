@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "735393628595",
+    "firebase_url": "https://revier-smkn1.firebaseio.com",
+    "project_id": "revier-smkn1",
+    "storage_bucket": "revier-smkn1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735393628595:android:19049c5fb5f8df2a",
+        "android_client_info": {
+          "package_name": "com.uphero.reviewyuk.revier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735393628595-lsu3c0of955c4m4a6ok8lk5kg9kqju30.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uphero.reviewyuk.revier",
+            "certificate_hash": "b979838b87845b2929de48599b33568333225d0c"
+          }
+        },
+        {
+          "client_id": "735393628595-l2irgheo5qq6ago5rs46imfii222a2uh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuZ_xn2K6_zXJgTfwS5mnLEzWcSCrvD_Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735393628595-l2irgheo5qq6ago5rs46imfii222a2uh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

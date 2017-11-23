@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Adding this script for Title Of Navigation Bott -->
+    <item
+        android:id="@+id/action_item1"
+        android:icon="@drawable/ic_camera_alt_black_24dp"
+        android:title="@string/item_1"/>
+    <item
+        android:id="@+id/action_item2"
+        android:icon="@drawable/ic_add_circle_black_24dp"
+        android:title="@string/item_2"/>
+    <item
+        android:id="@+id/action_item3"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/item_3"/>
+    <item
+        android:id="@+id/action_item4"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/item_4"/>
+    <item
+        android:id="@+id/action_item5"
+        android:icon="@drawable/ic_map_black_24dp"
+        android:title="@string/item_5"/>
+</menu>

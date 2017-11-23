@@ -1,0 +1,34 @@
+~ Generate Automatic By DeV_Maid ~
+
+Welcome to LOG REPORT (This our Project REPORT)
+
+Version 1.0
+==============
+Adding Splash_Screen
+Make Animation in Splash
+Make No History in Activity
+
+Version 1.0.1
+==============
+Adding Navigation Bar
+Make new Vector Assets
+Adding The Vector
+Adding Title Menu
+
+Version 1.0.2
+==============
+Looking for Bugs
+Looking for Unstable Program
+Adding Permiss + Function Camera Hardwere (FAIL VERSION, MANY BUGS)
+
+Version 1.0.4
+==============
+Adding Login, Sign Up, Forget Password
+Integrated with FIREBASE (YUHUU)
+Forget Password now supporting EMAIL VERITIFICATION
+Looking for new major feature
+Successfully Fixing Bugs (Bug Login)
+Fixed Activity Looping
+Login + Signup 100% Success WORK
+Adding Alert Windows for Exit
+Looping Activity is Fixed

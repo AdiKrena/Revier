@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/tv_addreviewtitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Add Review"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/white_grey_border_bottom"/>
+
+        <ImageView
+            android:id="@+id/addinfo_maps"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_map_black_24dp"
+            android:layout_alignParentEnd="true"
+            android:padding="7dp"
+            android:layout_marginEnd="10dp"/>
+
+    </RelativeLayout>
+
+</merge>
